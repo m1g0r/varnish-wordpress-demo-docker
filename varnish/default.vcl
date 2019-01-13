@@ -15,7 +15,6 @@ backend default {
 acl purge {
   "localhost";
   "127.0.0.1";
-  "18.197.58.66";
   "wordpress";
 }
 

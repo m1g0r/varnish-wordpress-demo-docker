@@ -33,7 +33,6 @@ services:
      volumes:
        - ./varnish:/etc/varnish
      ports:
-       - "6082:6082"
        - "80:80"
      restart: always
 
